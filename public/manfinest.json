@@ -1,0 +1,14 @@
+{
+  "name": "BlueOS",
+  "short_name": "Blue",
+  "description": "A delightfully simple solution to streamline project and client management",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./icon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
