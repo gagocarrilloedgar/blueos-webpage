@@ -19,7 +19,7 @@ export default function Login() {
           <CardTitle className="text-2xl">Hey there 👋</CardTitle>
           <CardDescription>
             We are getting ready to launch our private beta. Join the waitlist
-            to enjoy a <strong>35% discount</strong> after during the first year
+            to enjoy a <strong>35% discount</strong> during the first year, after
             the launch
           </CardDescription>
         </CardHeader>
