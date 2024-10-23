@@ -40,7 +40,7 @@ export function Hero() {
         <section className="flex flex-col items-center pt-12">
           <Button className="bg-blue-400 hover:bg-blue-500" asChild>
             <a href="/signup">
-              Join the beta
+              Join the waitlist
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </a>
           </Button>

@@ -163,7 +163,7 @@ export default function Pricing() {
         "Up to 5 team members",
         "100 GB of document storage"
       ],
-      actionLabel: "Join the beta"
+      actionLabel: "Join the waitlist"
     },
     {
       title: "Blues",
@@ -177,7 +177,7 @@ export default function Pricing() {
         "Up to 25 team members",
         "10 TB of document storage"
       ],
-      actionLabel: "Join the beta",
+      actionLabel: "Join the waitlist",
       popular: true
     },
     {
@@ -185,8 +185,8 @@ export default function Pricing() {
       price: "Custom",
       description: "For companies with more than 250 employees",
       features: [
-        "40 Client accounts",
-        "10 Client portals",
+        "> 40 Client accounts",
+        "> 10 Client portals",
         "Unlimitted projects",
         "Unlimitted storage",
         "Unlimitted team members",
