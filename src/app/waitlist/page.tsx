@@ -10,7 +10,6 @@ import {
   CardTitle
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 
 export default function Login() {
   return (
@@ -27,7 +26,6 @@ export default function Login() {
         <CardContent>
           <div className="grid gap-4">
             <div className="grid gap-2">
-              <Label htmlFor="email">Email</Label>
               <Input
                 id="email"
                 type="email"
