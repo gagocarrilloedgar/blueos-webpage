@@ -154,28 +154,29 @@ export default function Pricing() {
     {
       title: "Basic",
       monthlyPrice: 10,
-      yearlyPrice: 8,
-      description: "For freelancers and small companies",
+      yearlyPrice: 8.5,
+      description:
+        "For freelancers and small companies. Expandable units if need it",
       features: [
-        "5 Client accounts",
+        "6 Client accounts",
         "3 Client portals",
-        "20 Projects",
+        "Unlimitted projects",
         "Up to 5 team members",
-        "100 GB of document storage"
+        "50 GB of document storage."
       ],
       actionLabel: "Join the waitlist"
     },
     {
       title: "Blues",
       monthlyPrice: 50,
-      yearlyPrice: 40,
-      description: "For medium companies",
+      yearlyPrice: 41.5,
+      description: "For medium companies. Expandable units if need it",
       features: [
         "40 Client accounts",
         "10 Client portals",
         "Unlimitted projects",
         "Up to 25 team members",
-        "10 TB of document storage"
+        "500 GB of document storage"
       ],
       actionLabel: "Join the waitlist",
       popular: true
@@ -183,7 +184,7 @@ export default function Pricing() {
     {
       title: "Enterprise",
       price: "Custom",
-      description: "For companies with more than 250 employees",
+      description: "For large companies with custom needs",
       features: [
         "> 40 Client accounts",
         "> 10 Client portals",

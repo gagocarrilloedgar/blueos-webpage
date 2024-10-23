@@ -3,6 +3,8 @@
 import DotPattern from "@/components/ui/dot-pattern";
 import { cn } from "@/lib/utils";
 
+import Cta from "./CallToAction";
+import FeaturesPlanet from "./Features";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Hero } from "./Hero";
@@ -14,7 +16,9 @@ export function Landing() {
       <div className="h-screen w-screen z-10 pt-20 justify-center flex-col bg-transparent">
         <Header />
         <Hero />
+        <FeaturesPlanet />
         <Pricing />
+        <Cta />
         <Footer border />
       </div>
       <DotPattern

@@ -18,9 +18,8 @@ export default function Login() {
         <CardHeader>
           <CardTitle className="text-2xl">Hey there 👋</CardTitle>
           <CardDescription>
-            We are getting ready to launch our private beta. Join the waitlist
-            to enjoy a <strong>35% discount</strong> during the first year, after
-            the launch
+            We are getting ready to launch our private beta. Join now and we
+            will let you know once we start.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -34,7 +33,7 @@ export default function Login() {
               />
             </div>
             <Button type="submit" className="w-full">
-              Login
+              Join BlueOS
             </Button>
           </div>
         </CardContent>
