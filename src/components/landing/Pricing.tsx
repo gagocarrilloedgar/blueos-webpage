@@ -199,7 +199,7 @@ export default function Pricing() {
     }
   ];
   return (
-    <div className="relative py-8">
+    <div id="pricing" className="relative py-8">
       <PricingHeader
         title="Pricing Plans"
         subtitle="Choose the plan that's right for you"
