@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "BlueOS | The OS for client portals",
     description: "Delightfully simple client management for freelancers",
     creator: "@gagocarrilloedgar",
-    images: ["https://useblueos.com/twitter-image.jpg"]
+    images: ["https://useblueos.com/twitter-image.png"]
   },
   manifest: "/manfinest.json"
 };
