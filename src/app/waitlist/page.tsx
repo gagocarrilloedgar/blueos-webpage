@@ -86,7 +86,7 @@ export default function Waitlist() {
 
     toast.promise(promise, {
       loading: "Getting you on the waitlist... 🚀",
-      success: (data) => {
+      success: () => {
         setEmail("");
         return "Thank you for joining the waitlist 🎉";
       },
@@ -129,7 +129,11 @@ export default function Waitlist() {
                 required
               />
             </div>
-            <Button onClick={handleSubmit} className="w-full">
+            <Button
+              disabled={loading}
+              onClick={handleSubmit}
+              className="w-full"
+            >
               Join BlueOS
             </Button>
           </div>

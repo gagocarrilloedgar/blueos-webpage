@@ -20,7 +20,7 @@ const ratelimit = new Ratelimit({
   limiter: Ratelimit.slidingWindow(2, "1 m")
 });
 
-export async function POST(request: NextRequest, response: NextResponse) {
+export async function POST(request: NextRequest) {
   const ip = request.ip ?? "127.0.0.1";
 
   const result = await ratelimit.limit(ip);
@@ -47,8 +47,6 @@ export async function POST(request: NextRequest, response: NextResponse) {
     replyTo: "edgar@useblueos.com",
     html
   });
-
-  // const { data, error } = { data: true, error: null }
 
   if (error) {
     return NextResponse.json(error);

@@ -55,7 +55,10 @@ export const InfoBlocks = () => {
             Features
           </Link>
 
-          <a className="text-gray-600 transition hover:text-gray-900" href="/waitlist">
+          <a
+            className="text-gray-600 transition hover:text-gray-900"
+            href="/waitlist"
+          >
             Join now
           </a>
 
@@ -74,10 +77,10 @@ export const InfoBlocks = () => {
   );
 };
 
-const MoreInfoBlocs = () => {
+/*const MoreInfoBlocs = () => {
   return (
     <>
-      {/* 3rd block */}
+      {/* 3rd block *
       <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
         <h3 className="text-sm font-medium">Company</h3>
         <ul className="space-y-2 text-sm">
@@ -123,7 +126,7 @@ const MoreInfoBlocs = () => {
           </li>
         </ul>
       </div>
-      {/* 4th block */}
+      {/* 4th block
       <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
         <h3 className="text-sm font-medium">Resources</h3>
         <ul className="space-y-2 text-sm">
@@ -153,7 +156,7 @@ const MoreInfoBlocs = () => {
           </li>
         </ul>
       </div>
-      {/* 5th block */}
+      {/* 5th block *
       <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
         <h3 className="text-sm font-medium">Social</h3>
         <ul className="flex gap-1">
@@ -206,4 +209,4 @@ const MoreInfoBlocs = () => {
       </div>
     </>
   );
-};
+};*/
