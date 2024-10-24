@@ -55,7 +55,7 @@ export function Demo() {
   return (
     <div className="hidden lg:flex relative mt-10  w-[800px] flex-col items-center justify-center overflow-hidden bg-transparent rounded-[9px] md:shadow-xl">
       <Safari
-        url="https://blueos.xyz/app"
+        url="https://app.useblueos.com"
         className="h-full w-full object-contain"
         src="/homepage.png"
       />
