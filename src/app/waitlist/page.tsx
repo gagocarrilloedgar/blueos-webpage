@@ -29,12 +29,12 @@ export default function Waitlist() {
 
   const handleSubmit = async () => {
     if (!email) {
-      toast.error("Please fill in all fields 😠");
+      toast.error("Please fill in all fields");
       return;
     }
 
     if (!isValidEmail(email)) {
-      toast.error("Please enter a valid email address 😠");
+      toast.error("Please enter a valid email address");
       return;
     }
 
@@ -49,7 +49,7 @@ export default function Waitlist() {
           headers: {
             "Content-Type": "application/json"
           },
-          body: JSON.stringify({ firstname: name, email })
+          body: JSON.stringify({ email })
         });
 
         if (!mailResponse.ok) {
@@ -67,7 +67,7 @@ export default function Waitlist() {
           headers: {
             "Content-Type": "application/json"
           },
-          body: JSON.stringify({ name, email })
+          body: JSON.stringify({ email })
         });
 
         if (!notionResponse.ok) {
@@ -77,7 +77,7 @@ export default function Waitlist() {
             reject("Notion insertion failed");
           }
         } else {
-          resolve({ name });
+          resolve({ email });
         }
       } catch (error) {
         reject(error);

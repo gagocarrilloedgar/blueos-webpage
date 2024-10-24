@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
   const html = await render(WelcomeTemplate({ email }));
 
   const { data, error } = await resend.emails.send({
-    from: "Edgar Gago<edgar@useblueos.com>",
+    from: "Edgar<edgar@useblueos.com>",
     to: [email],
     subject: "Thank you for wailisting BlueOS",
     replyTo: "edgar@useblueos.com",
