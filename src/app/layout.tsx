@@ -46,12 +46,21 @@ export const metadata: Metadata = {
     siteName: "BlueOS | Client management",
     images: [
       {
-        url: "/public/homepage.png",
+        url: "https://useblueos.com/og-image.png",
+        width: 1440,
+        height: 832,
         alt: "Client management home"
       }
     ],
     locale: "en",
     type: "website"
+  },
+  // Twitter metadata
+  twitter: {
+    title: "BlueOS | The OS for client portals",
+    description: "Delightfully simple client management for freelancers",
+    creator: "@gagocarrilloedgar",
+    images: ["https://useblueos.com/twitter-image.jpg"]
   },
   manifest: "/manfinest.json"
 };
@@ -64,7 +73,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
-      <Toaster />
+      <Toaster richColors position="bottom-right" />
     </html>
   );
 }
