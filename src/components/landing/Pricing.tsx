@@ -158,7 +158,7 @@ export default function Pricing() {
       description:
         "For freelancers and small companies. Expandable units if need it",
       features: [
-        "6 Client accounts",
+        "10 Client accounts",
         "3 Client portals",
         "Unlimitted projects",
         "Up to 5 team members",
@@ -172,7 +172,7 @@ export default function Pricing() {
       yearlyPrice: 41.5,
       description: "For medium companies. Expandable units if need it",
       features: [
-        "40 Client accounts",
+        "50 Client accounts",
         "10 Client portals",
         "Unlimitted projects",
         "Up to 25 team members",
