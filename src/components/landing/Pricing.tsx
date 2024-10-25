@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 type PricingSwitchProps = {
   onSwitch: (value: string) => void;
@@ -130,9 +131,12 @@ const PricingCard = ({
       <Button
         disabled={exclusive}
         className="relative inline-flex w-full items-center justify-center rounded-md bg-black text-white dark:bg-white px-6 font-medium  dark:text-black transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+        asChild={!exclusive}
       >
-        <div className="absolute -inset-0.5 -z-10 rounded-lg bg-gradient-to-b from-[#c7d2fe] to-[#8678f9] opacity-75 blur" />
-        {actionLabel}
+        <Link aria-disabled={exclusive} href="/waitlist">
+          <div className="absolute -inset-0.5 -z-10 rounded-lg bg-gradient-to-b from-[#c7d2fe] to-[#8678f9] opacity-75 blur" />
+          {actionLabel}
+        </Link>
       </Button>
     </CardFooter>
   </Card>
