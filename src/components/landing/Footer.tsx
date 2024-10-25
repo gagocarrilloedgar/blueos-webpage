@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function Footer({ border = false }: { border?: boolean }) {
+export function Footer() {
   return (
     <footer>
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6">

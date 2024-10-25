@@ -19,7 +19,7 @@ export function Landing() {
         <FeaturesPlanet />
         <Pricing />
         <Cta />
-        <Footer border />
+        <Footer />
       </div>
       <DotPattern
         width={15}
