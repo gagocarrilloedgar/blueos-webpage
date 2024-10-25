@@ -166,7 +166,7 @@ export default function Pricing() {
         "3 Client portals",
         "Unlimitted projects",
         "Up to 5 team members",
-        "50 GB of document storage."
+        //"50 GB of document storage."
       ],
       actionLabel: "Join the waitlist"
     },
@@ -180,7 +180,7 @@ export default function Pricing() {
         "10 Client portals",
         "Unlimitted projects",
         "Up to 25 team members",
-        "500 GB of document storage"
+        //"500 GB of document storage"
       ],
       actionLabel: "Join the waitlist",
       popular: true
@@ -193,7 +193,7 @@ export default function Pricing() {
         "> 40 Client accounts",
         "> 10 Client portals",
         "Unlimitted projects",
-        "Unlimitted storage",
+        // "Unlimitted storage",
         "Unlimitted team members",
         "On premise",
         "SSO"

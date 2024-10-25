@@ -8,9 +8,9 @@ import WordRotate from "@/components/ui/word-rotate";
 
 export function Hero() {
   return (
-    <section className="flex flex-col gap-2 text-center">
+    <section className="flex flex-col gap-2 text-center px-2 md:px-0">
       <BlurFade delay={0.3} inView>
-        <span className="text-black bg-clip-text text-center text-6xl font-semibold leading-none text-transparent dark:text-white py-2">
+        <span className="text-black bg-clip-text text-center text-5xl md:text-6xl font-semibold leading-none text-transparent dark:text-white py-2">
           <span className="relative inline-block text-white">
             <span className="absolute -inset-2 bg-blue-400 transform -skew-y-2 -translate-y-2"></span>
             <span className="relative z-10">Blue OS</span>
@@ -18,7 +18,7 @@ export function Hero() {
         </span>
       </BlurFade>
       <BlurFade delay={0.3 * 2} inView>
-        <span className="text-black text-6xl">
+        <span className="text-black text-4xl md:text-6xl">
           Effortless
           <strong>
             <WordRotate
@@ -31,7 +31,7 @@ export function Hero() {
       </BlurFade>
 
       <BlurFade delay={0.3 * 3} inView>
-        <p className="text-xl">
+        <p className="text-xs px-20 md:text-xl md:px-0">
           A delightfully simple solution to streamline project and client
           management.
           <br />
@@ -53,7 +53,7 @@ export function Hero() {
 
 export function Demo() {
   return (
-    <div className="hidden lg:flex relative mt-10  w-[800px] flex-col items-center justify-center overflow-hidden bg-transparent rounded-[9px] md:shadow-xl">
+    <div className="w-[400px] lg:flex relative mt-10  md:w-[800px] flex-col items-center justify-center overflow-hidden bg-transparent rounded-[9px] md:shadow-xl">
       <Safari
         url="https://app.useblueos.com"
         className="h-full w-full object-contain"
