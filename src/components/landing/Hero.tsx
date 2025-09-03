@@ -13,7 +13,7 @@ export function Hero() {
         <span className="text-black bg-clip-text text-center text-5xl md:text-6xl font-semibold leading-none text-transparent dark:text-white py-2">
           <span className="relative inline-block text-white">
             <span className="absolute -inset-2 bg-blue-400 transform -skew-y-2 -translate-y-2"></span>
-            <span className="relative z-10">Blue OS</span>
+            <span className="relative z-10">BlueDesk</span>
           </span>
         </span>
       </BlurFade>
@@ -23,19 +23,21 @@ export function Hero() {
           <strong>
             <WordRotate
               duration={2000}
-              words={["client", "project", "file", "request"]}
+              words={["helpdesk", "support", "ticket", "customer"]}
             />
           </strong>
-          management for freelancers
+          system for AI projects
         </span>
       </BlurFade>
 
       <BlurFade delay={0.3 * 3} inView>
         <p className="text-xs px-20 md:text-xl md:px-0">
-          A delightfully simple solution to streamline project and client
-          management.
+          API-first helpdesk with ready-to-use components, mail-to-ticket conversion,
+          and multi-tenant support.
           <br />
-          Built for small agencies and freelancers.
+          Built for AI projects with configurable portal access and role management.
+          <br />
+          <span className="text-blue-500 font-semibold">Open source & self-hostable</span>
         </p>
         <section className="flex flex-col items-center pt-12">
           <Button className="bg-blue-400 hover:bg-blue-500" asChild>
@@ -55,7 +57,7 @@ export function Demo() {
   return (
     <div className="w-[400px] lg:flex relative mt-10  md:w-[800px] flex-col items-center justify-center overflow-hidden bg-transparent rounded-[9px] md:shadow-xl">
       <Safari
-        url="https://app.useblueos.com"
+        url="https://app.useBlueDesk.com"
         className="h-full w-full object-contain"
         src="/homepage.png"
       />

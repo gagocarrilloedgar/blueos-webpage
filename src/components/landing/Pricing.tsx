@@ -157,48 +157,52 @@ export default function Pricing() {
   const plans = [
     {
       title: "Basic",
-      monthlyPrice: 10,
-      yearlyPrice: 8.5,
+      monthlyPrice: 7,
+      yearlyPrice: 70,
       description:
-        "For freelancers and small companies. Expandable units if need it",
+        "Everything you need to get started with AI project support",
       features: [
-        "10 Client accounts",
-        "3 Client portals",
-        "Unlimitted projects",
-        "Up to 5 team members",
-        //"50 GB of document storage."
-      ],
-      actionLabel: "Join the waitlist"
-    },
-    {
-      title: "Blues",
-      monthlyPrice: 50,
-      yearlyPrice: 41.5,
-      description: "For medium companies. Expandable units if need it",
-      features: [
-        "50 Client accounts",
-        "10 Client portals",
-        "Unlimitted projects",
-        "Up to 25 team members",
-        //"500 GB of document storage"
+        "10 users",
+        "Unlimited tickets",
+        "10 customer portals",
+        "Mail-to-ticket conversion",
+        "Components library",
+        "API access",
+        "Community support"
       ],
       actionLabel: "Join the waitlist",
       popular: true
     },
     {
-      title: "Enterprise",
-      price: "Custom",
-      description: "For large companies with custom needs",
+      title: "Self-Host Support",
+      monthlyPrice: 200,
+      yearlyPrice: 2000,
+      description: "Professional support for your self-hosted deployment",
       features: [
-        "> 40 Client accounts",
-        "> 10 Client portals",
-        "Unlimitted projects",
-        // "Unlimitted storage",
-        "Unlimitted team members",
-        "On premise",
-        "SSO"
+        "Open source codebase",
+        "Self-hosted deployment",
+        "Slack channel",
+        "48h response SLA",
+        "Installation support",
+        "Update assistance",
+        "Custom configuration help"
       ],
-      actionLabel: "Coming soon",
+      actionLabel: "Join the waitlist"
+    },
+    {
+      title: "Custom",
+      price: "Let's Talk",
+      description: "Tailored solution for your specific needs",
+      features: [
+        "Everything in Basic",
+        "Unlimited users & portals",
+        "White-label solution",
+        "On-premise deployment",
+        "Custom integrations",
+        "Dedicated support",
+        "SLA guarantees"
+      ],
+      actionLabel: "Contact Sales",
       exclusive: true
     }
   ];

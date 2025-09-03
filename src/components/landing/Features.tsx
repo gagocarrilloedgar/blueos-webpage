@@ -1,10 +1,10 @@
 import {
-  Files,
-  Folders,
-  FolderTree,
-  FormInput,
-  Globe,
-  MessagesSquare
+  Code,
+  Mail,
+  Settings,
+  Users,
+  Zap,
+  TicketIcon
 } from "lucide-react";
 import Image from "next/image";
 
@@ -19,7 +19,8 @@ export default function FeaturesPlanet() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-foreground md:text-4xl">
-              Blue helps you manage projects & clients around the world
+              BlueDesk streamlines AI project support with powerful helpdesk
+              features
             </h2>
           </div>
           {/* Planet */}
@@ -79,68 +80,68 @@ export default function FeaturesPlanet() {
           <div className="grid overflow-hidden sm:grid-cols-2 lg:grid-cols-3 [&>*]:relative [&>*]:p-6 [&>*]:before:absolute [&>*]:before:bg-gray-800 [&>*]:before:[block-size:100vh] [&>*]:before:[inline-size:1px] [&>*]:before:[inset-block-start:0] [&>*]:before:[inset-inline-start:-1px] [&>*]:after:absolute [&>*]:after:bg-gray-800 [&>*]:after:[block-size:1px] [&>*]:after:[inline-size:100vw] [&>*]:after:[inset-block-start:-1px] [&>*]:after:[inset-inline-start:0] md:[&>*]:p-10">
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-foreground">
-                <FormInput />
-                <span>Forms</span>
+                <Code />
+                <span>API-First Design</span>
               </h3>
               <p className="text-[15px] text-black">
-                Easilly create custom forms to get feedback, store client
-                analytics or let your clients ask for special requests and
-                automatically convert then into tasks.
+                Integrate seamlessly with your existing systems using our 
+                comprehensive REST API. Build custom workflows and automate 
+                support processes with ready-to-use endpoints.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-foreground">
-                <Folders />
-                <span>Projects</span>
+                <Mail />
+                <span>Mail-to-Ticket</span>
               </h3>
               <p className="text-[15px] text-black">
-                Create projects just once. Copy paste the project structure you
-                like and assign it to a new client. Optionally transfer files,
-                requests, and documents.
+                Automatically convert customer emails into organized support 
+                tickets. Set up custom routing rules and let your team focus 
+                on solving problems, not managing emails.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-foreground">
-                <MessagesSquare />
-                <span>Chats</span>
+                <TicketIcon />
+                <span>Ready Components</span>
               </h3>
               <p className="text-[15px] text-black">
-                Create chats with your within clients portals or at workspace
-                level to coordinate with your mates. You will get our
-                recomendated by default but you can create as many as you need
+                Drop-in React components for ticket creation, status tracking, 
+                and user portals. Customize styling to match your brand and 
+                integrate in minutes, not weeks.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-foreground">
-                <Globe />
-                <span>Client portals</span>
+                <Users />
+                <span>Multi-Tenant Support</span>
               </h3>
               <p className="text-[15px] text-black">
-                Create portals and hide them until your project is ready. Hide
-                and show portals as your clients come and go without loosing
-                data.
+                Serve multiple clients with complete data isolation. Each 
+                tenant gets their own dashboard, users, and customization 
+                options while sharing the same infrastructure.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-foreground">
-                <FolderTree />
-                <span>Documents</span>
+                <Settings />
+                <span>Portal Access Control</span>
               </h3>
               <p className="text-[15px] text-black">
-                Create documentation and have a unique collaboration flow by
-                sharing it with your clients and allowing them to comment, and
-                collaborate.
+                Configure granular access permissions for different user roles. 
+                Create custom portals with tailored views and functionality 
+                for admins, agents, and end-users.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-foreground">
-                <Files />
-                <span>Files</span>
+                <Zap />
+                <span>AI-Powered Automation</span>
               </h3>
               <p className="text-[15px] text-black">
-                Forget about third party tools and centralise and share your
-                invoces, certifications, signed contracts, and more in a single
-                place.
+                Leverage AI to automatically categorize tickets, suggest 
+                responses, and route issues to the right team members. Built 
+                specifically for AI project support workflows.
               </p>
             </article>
           </div>

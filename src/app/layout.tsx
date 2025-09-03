@@ -5,52 +5,49 @@ import { CSPostHogProvider } from "@/lib/analytics/CSPostHogProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BlueOS",
-  description: "Delightfully simple client management for freelancers",
-  applicationName: "BlueOS",
+  title: "BlueDesk",
+  description: "Effortless helpdesk system for AI projects",
+  applicationName: "BlueDesk",
   authors: [
     { name: "Edgar Gago Carrillo", url: "github.com/gagocarrilloedgar" }
   ],
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "Slack alternative for freelancers",
-    "Notion alternative for freelancers",
-    "Project management for freelancers",
-    "Freelancer Client Management",
-    "Client Organization Tool for Freelancers",
-    "Manage Clients Easily",
-    "Freelance Project Management",
-    "Client Communication Platform",
-    "Freelancer Invoicing and Payments",
-    "Streamline Client Work",
-    "Track Client Projects",
-    "Client Collaboration for Freelancers",
-    "Freelance Workflow Automation",
-    "Client Portal for Freelancers",
-    "Manage Client Feedback",
-    "Task Management for Freelancers",
-    "Freelancer Time Tracking",
-    "Client Document Sharing",
-    "Freelancer CRM Software",
-    "Freelance Client Forms",
-    "Manage Client Proposals",
-    "Freelancer Billing and Contracts",
-    "Collaborative Workspaces for Freelancers"
+    "AI project helpdesk",
+    "API-first helpdesk system",
+    "Multi-tenant support desk",
+    "Mail to ticket conversion",
+    "Helpdesk components",
+    "AI support platform",
+    "Configurable portal access",
+    "Role-based helpdesk",
+    "Customer support API",
+    "Ticket management system",
+    "AI project support",
+    "Helpdesk integration",
+    "Support ticket automation",
+    "Multi-tenant architecture",
+    "Customer portal roles",
+    "Help desk software",
+    "AI customer service",
+    "Support system components",
+    "Ticket tracking system",
+    "Email to ticket system"
   ],
   creator: "Edgar Gago Carrillo",
   publisher: "gagocarrilloedgar",
   openGraph: {
-    title: "BlueOS | The OS for client portals",
-    description: "Delightfully simple client management for freelancers",
-    url: "https://useblueos.com",
-    siteName: "BlueOS | Client management",
+    title: "BlueDesk | Effortless Helpdesk for AI Projects",
+    description: "API-first helpdesk system with ready-to-use components",
+    url: "https://useBlueDesk.com",
+    siteName: "BlueDesk | AI Project Helpdesk",
     images: [
       {
-        url: "https://useblueos.com/og-image.png",
+        url: "https://useBlueDesk.com/og-image.png",
         width: 1440,
         height: 832,
-        alt: "Client management home"
+        alt: "AI Project Helpdesk Home"
       }
     ],
     locale: "en",
@@ -58,10 +55,10 @@ export const metadata: Metadata = {
   },
   // Twitter metadata
   twitter: {
-    title: "BlueOS | The OS for client portals",
-    description: "Delightfully simple client management for freelancers",
+    title: "BlueDesk | Effortless Helpdesk for AI Projects",
+    description: "API-first helpdesk system with ready-to-use components",
     creator: "@gagocarrilloedgar",
-    images: ["https://useblueos.com/twitter-image.png"]
+    images: ["https://useBlueDesk.com/twitter-image.png"]
   },
   manifest: "/manfinest.json"
 };
