@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async redirects () {
+  async rewrites () {
     return [
-      { source: '/login', destination: '/waitlist', permanent: false },
-      { source: '/signup', destination: '/waitlist', permanent: false }
+      {
+        source: '/((?!privacy$).*)',
+        destination: 'https://blue-desk.vercel.app/$1'
+      }
     ]
   }
 }

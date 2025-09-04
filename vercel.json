@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/((?!$|waitlist).*)",
-      "destination": "https://blue-desk.vercel.app/$1"
-    }
-  ]
-}
