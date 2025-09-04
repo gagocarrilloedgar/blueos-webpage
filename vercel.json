@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!$|waitlist).*)",
+      "destination": "https://your-second-project.vercel.app/$1"
+    }
+  ]
+}
