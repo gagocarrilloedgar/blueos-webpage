@@ -13,7 +13,7 @@ export function Hero() {
         <span className="text-black bg-clip-text text-center text-5xl md:text-6xl font-semibold leading-none text-transparent dark:text-white py-2">
           <span className="relative inline-block text-white">
             <span className="absolute -inset-2 bg-blue-400 transform -skew-y-2 -translate-y-2"></span>
-            <span className="relative z-10">BlueDesk</span>
+            <span className="relative z-10">BlueOS</span>
           </span>
         </span>
       </BlurFade>
@@ -57,7 +57,7 @@ export function Demo() {
   return (
     <div className="w-[400px] lg:flex relative mt-10  md:w-[800px] flex-col items-center justify-center overflow-hidden bg-transparent rounded-[9px] md:shadow-xl">
       <Safari
-        url="https://app.useBlueDesk.com"
+        url="https://app.useblueos.com"
         className="h-full w-full object-contain"
         src="/homepage.png"
       />

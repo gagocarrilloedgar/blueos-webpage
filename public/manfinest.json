@@ -1,6 +1,6 @@
 {
-  "name": "BlueDesk",
-  "short_name": "BlueDesk",
+  "name": "BlueOS",
+  "short_name": "BlueOS",
   "description": "Effortless helpdesk system for AI projects with API-first architecture",
   "start_url": "/",
   "display": "standalone",

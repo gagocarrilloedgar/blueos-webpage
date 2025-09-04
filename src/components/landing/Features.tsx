@@ -19,7 +19,7 @@ export default function FeaturesPlanet() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-foreground md:text-4xl">
-              BlueDesk streamlines AI project support with powerful helpdesk
+              BlueOS streamlines AI project support with powerful helpdesk
               features
             </h2>
           </div>
@@ -84,8 +84,8 @@ export default function FeaturesPlanet() {
                 <span>API-First Design</span>
               </h3>
               <p className="text-[15px] text-black">
-                Integrate seamlessly with your existing systems using our 
-                comprehensive REST API. Build custom workflows and automate 
+                Integrate seamlessly with your existing systems using our
+                comprehensive REST API. Build custom workflows and automate
                 support processes with ready-to-use endpoints.
               </p>
             </article>
@@ -95,8 +95,8 @@ export default function FeaturesPlanet() {
                 <span>Mail-to-Ticket</span>
               </h3>
               <p className="text-[15px] text-black">
-                Automatically convert customer emails into organized support 
-                tickets. Set up custom routing rules and let your team focus 
+                Automatically convert customer emails into organized support
+                tickets. Set up custom routing rules and let your team focus
                 on solving problems, not managing emails.
               </p>
             </article>
@@ -106,8 +106,8 @@ export default function FeaturesPlanet() {
                 <span>Ready Components</span>
               </h3>
               <p className="text-[15px] text-black">
-                Drop-in React components for ticket creation, status tracking, 
-                and user portals. Customize styling to match your brand and 
+                Drop-in React components for ticket creation, status tracking,
+                and user portals. Customize styling to match your brand and
                 integrate in minutes, not weeks.
               </p>
             </article>
@@ -117,8 +117,8 @@ export default function FeaturesPlanet() {
                 <span>Multi-Tenant Support</span>
               </h3>
               <p className="text-[15px] text-black">
-                Serve multiple clients with complete data isolation. Each 
-                tenant gets their own dashboard, users, and customization 
+                Serve multiple clients with complete data isolation. Each
+                tenant gets their own dashboard, users, and customization
                 options while sharing the same infrastructure.
               </p>
             </article>
@@ -128,8 +128,8 @@ export default function FeaturesPlanet() {
                 <span>Portal Access Control</span>
               </h3>
               <p className="text-[15px] text-black">
-                Configure granular access permissions for different user roles. 
-                Create custom portals with tailored views and functionality 
+                Configure granular access permissions for different user roles.
+                Create custom portals with tailored views and functionality
                 for admins, agents, and end-users.
               </p>
             </article>
@@ -139,8 +139,8 @@ export default function FeaturesPlanet() {
                 <span>AI-Powered Automation</span>
               </h3>
               <p className="text-[15px] text-black">
-                Leverage AI to automatically categorize tickets, suggest 
-                responses, and route issues to the right team members. Built 
+                Leverage AI to automatically categorize tickets, suggest
+                responses, and route issues to the right team members. Built
                 specifically for AI project support workflows.
               </p>
             </article>

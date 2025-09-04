@@ -5,9 +5,9 @@ import { CSPostHogProvider } from "@/lib/analytics/CSPostHogProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BlueDesk",
+  title: "BlueOS",
   description: "Effortless helpdesk system for AI projects",
-  applicationName: "BlueDesk",
+  applicationName: "BlueOS",
   authors: [
     { name: "Edgar Gago Carrillo", url: "github.com/gagocarrilloedgar" }
   ],
@@ -38,13 +38,13 @@ export const metadata: Metadata = {
   creator: "Edgar Gago Carrillo",
   publisher: "gagocarrilloedgar",
   openGraph: {
-    title: "BlueDesk | Effortless Helpdesk for AI Projects",
+    title: "BlueOS | Effortless Helpdesk for AI Projects",
     description: "API-first helpdesk system with ready-to-use components",
-    url: "https://useBlueDesk.com",
-    siteName: "BlueDesk | AI Project Helpdesk",
+    url: "https://useblueos.com",
+    siteName: "BlueOS | AI Project Helpdesk",
     images: [
       {
-        url: "https://useBlueDesk.com/og-image.png",
+        url: "https://useblueos.com/og-image.png",
         width: 1440,
         height: 832,
         alt: "AI Project Helpdesk Home"
@@ -55,10 +55,10 @@ export const metadata: Metadata = {
   },
   // Twitter metadata
   twitter: {
-    title: "BlueDesk | Effortless Helpdesk for AI Projects",
+    title: "BlueOS | Effortless Helpdesk for AI Projects",
     description: "API-first helpdesk system with ready-to-use components",
     creator: "@gagocarrilloedgar",
-    images: ["https://useBlueDesk.com/twitter-image.png"]
+    images: ["https://useblueos.com/twitter-image.png"]
   },
   manifest: "/manfinest.json"
 };
