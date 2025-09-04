@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/((?!$|waitlist).*)",
-      "destination": "https://your-second-project.vercel.app/$1"
+      "destination": "https://blue-desk.vercel.app/$1"
     }
   ]
 }
